@@ -1,35 +1,59 @@
 {
-    "menu": {
-      "appetizers": [
+    "Menu": [
         {
-          "name": "Spring Rolls",
-          "price": 5.99
+            "id": 1,
+            "name": "Nasi Goreng",
+            "description": "Nasi yang digoreng dengan bumbu khas Indonesia.",
+            "image_url": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/13073811/Praktis-dengan-Bahan-Sederhana-Ini-Resep-Nasi-Goreng-Special-1.jpg.webp"
+          },
+          {
+            "id": 2,
+            "name": "Mie Goreng",
+            "description": "Mie yang digoreng dengan sayuran dan bumbu lezat.",
+            "image_url": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/13073811/Praktis-dengan-Bahan-Sederhana-Ini-Resep-Nasi-Goreng-Special-1.jpg.webp"
+          },
+          {
+            "id": 3,
+            "name": "Sate Ayam",
+            "description": "Potongan daging ayam yang ditusuk dan dibakar dengan bumbu kacang.",
+            "image_url": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/13073811/Praktis-dengan-Bahan-Sederhana-Ini-Resep-Nasi-Goreng-Special-1.jpg.webp"
+          },
+          {
+            "id": 4,
+            "name": "Soto Ayam",
+            "description": "Sup ayam khas Indonesia dengan bumbu rempah.",
+            "image_url": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/13073811/Praktis-dengan-Bahan-Sederhana-Ini-Resep-Nasi-Goreng-Special-1.jpg.webp"
+          },
+          {
+            "id": 5,
+            "name": "Nasi Uduk",
+            "description": "Nasi yang dimasak dengan santan dan rempah-rempah.",
+            "image_url": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/13073811/Praktis-dengan-Bahan-Sederhana-Ini-Resep-Nasi-Goreng-Special-1.jpg.webp"
+          }
+          
+    ],
+    "kategoriMakanan": [
+        {
+          "kategori": "All Menu",
+          "total" : 70,
+          "url" : "https://static.thenounproject.com/png/3891784-200.png" 
         },
         {
-          "name": "Bruschetta",
-          "price": 6.99
-        }
-      ],
-      "main_courses": [
-        {
-          "name": "Grilled Chicken Breast",
-          "price": 12.99
+          "kategori": "Menu",
+          "total" : 70,
+          "url" : "https://static.thenounproject.com/png/3891784-200.png" 
         },
         {
-          "name": "Pasta Carbonara",
-          "price": 10.99
-        }
-      ],
-      "desserts": [
-        {
-          "name": "Chocolate Cake",
-          "price": 7.99
+          "kategori": "Salad",
+          "total" : 70,
+          "url" : "https://static.thenounproject.com/png/3891784-200.png" 
         },
         {
-          "name": "Fruit Salad",
-          "price": 5.99
+          "kategori": "Drink",
+          "total" : 70,
+          "url" : "https://static.thenounproject.com/png/3891784-200.png" 
         }
-      ]
-    }
-  }
+    ]
+}
+  
   
