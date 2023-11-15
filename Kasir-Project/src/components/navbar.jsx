@@ -1,6 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
-import React from "react";
+import Image from "react-bootstrap/Image";
 
 function NavbarComponent() {
   return (
@@ -11,7 +11,11 @@ function NavbarComponent() {
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
-              Signed in as: <a href="#login">Mark Otto</a>
+              <Image
+                style={{ width: "100%", height: "100%" }}
+                src="holder.js/371x380"
+                roundedCircle
+              />
             </Navbar.Text>
           </Navbar.Collapse>
         </Container>

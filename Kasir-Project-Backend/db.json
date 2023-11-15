@@ -34,21 +34,25 @@
     ],
     "kategoriMakanan": [
         {
+          "id" : 1,  
           "kategori": "All Menu",
           "total" : 70,
           "url" : "https://static.thenounproject.com/png/3891784-200.png" 
         },
         {
+            "id" : 2, 
           "kategori": "Menu",
           "total" : 70,
           "url" : "https://static.thenounproject.com/png/3891784-200.png" 
         },
         {
+            "id" : 3, 
           "kategori": "Salad",
           "total" : 70,
           "url" : "https://static.thenounproject.com/png/3891784-200.png" 
         },
         {
+            "id" : 4, 
           "kategori": "Drink",
           "total" : 70,
           "url" : "https://static.thenounproject.com/png/3891784-200.png" 
