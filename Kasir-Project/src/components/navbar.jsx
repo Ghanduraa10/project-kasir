@@ -7,7 +7,7 @@ function NavbarComponent() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Kafe Pejaten</Navbar.Brand>
+          <Navbar.Brand href="#home">Kollev Gendeng</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>

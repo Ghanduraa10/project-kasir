@@ -13,19 +13,16 @@ export default class App extends Component {
 
     this.state = {
       menus: [],
-      kategoriMakanan: [],
     };
   }
 
   async componentDidMount() {
     try {
-      const responseMenu = await axios.get(API_URL + "Menu");
-      const responseCategory = await axios.get(API_URL + "kategoriMakanan");
+      const responseMenu = await axios.get(API_URL + "products");
 
       const menus = responseMenu.data;
-      const kategoriMakanan = responseCategory.data;
 
-      this.setState({ menus, kategoriMakanan });
+      this.setState({ menus });
     } catch (error) {
       console.log(error);
     }
@@ -33,7 +30,6 @@ export default class App extends Component {
 
   render() {
     const { menus } = this.state;
-    const { kategoriMakanan } = this.state;
     return (
       <>
         <div className="App">
@@ -45,16 +41,11 @@ export default class App extends Component {
               <h4>
                 <strong>Kategori</strong>
               </h4>
-              <Row>
-                {kategoriMakanan &&
-                  kategoriMakanan.map((category) => (
-                    <ListCategory key={category.id} category={category} />
-                  ))}
-              </Row>
+              <ListCategory className="justify-content-start" />
             </Col>
             <Col className="mx-5 mt-5">
               <h4>
-                <strong>Special For You</strong>
+                <strong>Special Menu For You</strong>
               </h4>
               <Row>
                 {menus &&
